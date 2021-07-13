@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D9DDD9;
+}
+
+@font-face {
+    font-family: CeraProLight;
+    src: url(fonts/CeraPro/CeraProLight.otf);
+}
+
+@font-face {
+    font-family: CeraProThin;
+    src: url(fonts/CeraPro/CeraProThin.otf);
+}
+
+@font-face {
+    font-family: MagnetaCondensedThin;
+    src: url(fonts/Magneta/MagnetaCondensed-Thin.otf);
+}
+
+/* header */
+
+.header {
+    margin: 269px 620px 0 216px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2 {
+    display: none;
+}
+
+.headmain h5 {
+    display: none;
+}
+
+.designarea2 {
+    display: none;
+}
+
+.logodiv h1 {
+    font-size: 66px;
+    color: #475A46;
+    font-family: MagnetaCondensedThin;
+}
+
+.designarea h1 {
+    font-size: 66px;
+    color: #475A46;
+    font-family: 'MagnetaCondensedThin';
+}
+
+.designotr {
+    margin-left: 60px;
+}
+
+.headmain {
+    position: relative;
+}
+
+.headmain p {
+    font-size: 16px;
+    font-family: 'CeraProThin';
+    position: absolute;
+    top: 202px;
+    right: 260px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #475A46;
+}
+
+
+/* footer */
+
+.footer {
+    margin: 190px 580px 193px 216px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 {
+    display: none;
+}
+
+.footer p {
+    font-size: 16px;
+    font-family: CeraProThin;
+    color: #475A46;
+}
+
+
+.phnbtn {
+    display: flex;
+}
+
+.phnbtn img {
+    padding: 10px;
+}
+
+.phnbtn p {
+    padding: 5px;
+}
+
+
+.emlbtn {
+    display: flex;
+}
+
+.emlbtn img {
+    padding: 10px;
+
+}
+
+.emlbtn p {
+    padding: 5px;
+}
+
+
+.socialdiv {
+    display: flex;
+    margin-top: 37px;
+}
+
+.socialdiv h5 {
+    font-size: 16px;
+    color: #475A46;
+    font-family: CeraProThin;
+    padding: 10px;
+}
+
+.socialicon {
+    margin-top: 5px;
+}
+
+.socialdiv img {
+    padding: 5px;
+}
+
+
+/* Responsive */
+
+/* Screen Size 1600px */
+
+@media (max-width:1600px) {
+
+
+
+    .socialdiv {
+        display: flex;
+        margin-top: 34px;
+    }
+}
+
+
+
+
+
+/* Screen Size 1440px */
+
+@media (max-width:1440px) {}
+
+
+
+
+
+/* Screen Size 1366px */
+
+@media (max-width:1366px) {
+
+
+    .header {
+        margin: 269px 500px 0 216px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .logodiv h1 {
+        font-size: 55px;
+        color: #475A46;
+    }
+
+    .designarea h1 {
+        font-size: 55px;
+        color: #475A46;
+    }
+
+    .headmain p {
+        font-size: 16px;
+        font-family: 'CeraProThin';
+        position: absolute;
+        top: 167px;
+        letter-spacing: 1px;
+        line-height: 1.6;
+        right: 126px;
+        color: #475A46;
+    }
+
+    .footer {
+        margin: 175px 449px 193px 216px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+/* Screen Size 991px */
+
+@media (max-width:991px) {
+
+
+    .header {
+        margin: 107px 383px 0 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logodiv h1 {
+        font-size: 38px;
+        color: #475A46;
+    }
+
+    .designarea h1 {
+        font-size: 38px;
+        color: #475A46;
+    }
+
+    .headmain p {
+        font-size: 13px;
+        font-family: 'CeraProThin';
+        position: absolute;
+        top: 114px;
+        letter-spacing: 1px;
+        line-height: 1.6;
+        right: 76px;
+        color: #475A46;
+    }
+
+    .footer {
+        margin: 120px 334px 100px 115px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer p {
+        font-size: 14px;
+        font-family: CeraProThin;
+        color: #475A46;
+        margin-top: 2px;
+    }
+
+    .socialdiv h5 {
+        font-size: 14px;
+        color: #475A46;
+        font-family: CeraProThin;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+/* Screen Size 576px */
+
+@media (max-width:576px) {
+
+    .header {
+        display: none;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 34px 112px 34px;
+    }
+
+    .header2 ul {
+        list-style: none;
+        display: flex;
+        margin-right: -10px;
+    }
+
+    .header2 img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .header2 h1 {
+        font-size: 45px;
+        color: #475A46;
+        font-family: 'MagnetaCondensedThin';
+    }
+
+    .header2 ul li {
+        padding: 16px 10px;
+    }
+
+    .designarea {
+        display: none;
+    }
+
+    .designarea2 {
+        display: inline;
+    }
+
+    .designarea2 h1 {
+        font-size: 45px;
+        color: #475A46;
+        padding-left: 23px;
+        letter-spacing: 2px;
+        font-family: 'MagnetaCondensedThin';
+    }
+
+    .headmain p {
+        display: none;
+    }
+
+    .headmain h5 {
+        display: block;
+        font-size: 14px;
+        font-family: CeraProThin;
+        position: absolute;
+        top: 311px;
+        right: 6px;
+        color: #475A46;
+        letter-spacing: 1px;
+        line-height: 1.4;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
+
+    .footer2 img {
+        padding: 5px;
+    }
+
+    .img1 {
+        margin-right: 4px;
+    }
+
+}
